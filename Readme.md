@@ -1,7 +1,7 @@
-小平市議会に関する情報まとめ（令和3年）
+小平市議会に関する情報まとめ（令和4年）
 ====
 
-令和3年の小平市議会に関する情報をmdbookの形式でまとめ、[こちらのサイト](https://yasutakeyohei.com/books/reiwa3/)で公開しています。
+令和4年の小平市議会に関する情報をmdbookの形式でまとめ、[こちらのサイト](https://yasutakeyohei.com/books/reiwa4/)で公開しています。
 
 ## ライセンス
 [MIT](/LICENSE)

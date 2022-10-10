@@ -1,0 +1,366 @@
+{
+	// Place your Reiwa4 ワークスペース snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"？マーク削除タグ": {
+		"scope": "markdown",
+		"prefix": "no-q",
+		"body": [
+			"<div class=\"next-no-q-mark\"></div>",
+			"$2"
+		],
+	},
+	"グループタグ": {
+		"scope": "markdown",
+		"prefix": "group",
+		"body": [
+			"<div class=\"group\" style=\"--group-title:'$1';\">",
+			"",
+			"$2",
+			"",
+			"</div>$3"
+		],
+	},
+	"安竹洋平議員の質問タグ": {
+		"scope": "markdown",
+		"prefix": "yasu",
+		"body": [
+			"<div class=\"bln bleft yasutake\" data-speaker=\"😃⭐️安竹洋平議員（一人会派の会）\">",
+			"",
+			"$1",
+			"",
+			"</div>$2"
+		],
+	},
+	"一人会派の会議員の質問タグ": {
+		"scope": "markdown",
+		"prefix": "hitori",
+		"body": [
+			"<div class=\"bln bleft hitori\" data-speaker=\"👍 $1議員（一人会派の会）\">",
+			"",
+			"$2",
+			"",
+			"</div>$3"
+		],
+	},
+	"イイね": {
+		"scope": "markdown",
+		"prefix": "iine",
+		"body": "👍",
+	},
+	"他会派議員の質問タグ": {
+		"scope": "markdown",
+		"prefix": "tasitu",
+		"body": [
+			"<div class=\"bln bleft\" data-speaker=\"他会派の議員\">",
+			"",
+			"$1",
+			"",
+			"</div>$2"
+		],
+	},
+	"答弁タグ": {
+		"scope": "markdown",
+		"prefix": "touben",
+		"body": [
+			"<div class=\"bln bright\" data-speaker=\"$1\">",
+			"",
+			"$2",
+			"",
+			"</div>$3"
+		],
+	},
+	"thoughtタグ": {
+		"scope": "markdown",
+		"prefix": "thought",
+		"body": [
+			"<div class=\"bln bleft thought\">",
+			"",
+			"$1",
+			"",
+			"</div>$2"
+		],
+	},
+	"angerタグ": {
+		"scope": "markdown",
+		"prefix": "anger",
+		"body": [
+			"<div class=\"bln bleft anger\">",
+			"",
+			"$1",
+			"",
+			"</div>$2"
+		],
+	},
+	"sorryタグ": {
+		"scope": "markdown",
+		"prefix": "sorry",
+		"body": [
+			"<div class=\"bln bleft sorry\">",
+			"",
+			"$1",
+			"",
+			"</div>$2"
+		],
+	},	"引用タグ": {
+		"scope": "markdown",
+		"prefix": "quote",
+		"body": [
+			"<blockquote>",
+			"",
+			"$1",
+			"",
+			"<p class=\"ref\"><a href=\"\"></a></p>",
+			"",
+			"</blockquote>"
+		],
+	},
+	"imgタグ": {
+		"scope": "markdown",
+		"prefix": "image",
+		"body": [
+			"<img src=\"./images/$1\" alt=\"$2\"  data-zoomable=\"\" style=\"z-index:999;margin-top:2rem;\">",
+		],
+	},
+	"imgタグ Caption付き": {
+		"scope": "markdown",
+		"prefix": "image with caption",
+		"body": [
+			"<figure>",
+			"<img src=\"./images/$1\" alt=\"$2\"  data-zoomable=\"\" style=\"z-index:999;margin-top:2rem;\">",
+			"<figcaption>",
+			"</figcaption>",
+			"</figure>",
+		],
+	},
+	"岡田": {
+		"scope": "markdown",
+		"prefix": "okada",
+		"body": [
+			"障がい者支援課長（岡田）"
+		]
+	},
+	"滝澤": {
+		"scope": "markdown",
+		"prefix": "takizawa",
+		"body": [
+			"健康福祉部長（滝澤）"
+		]
+	},
+	"川上": {
+		"scope": "markdown",
+		"prefix": "kawakami",
+		"body": [
+			"教育部長（川上）"
+		]
+	},
+	"篠宮": {
+		"scope": "markdown",
+		"prefix": "shinomiya",
+		"body": [
+			"文化スポーツ担当部長兼健康・保険担当部長（篠宮）"
+		]
+	},
+	"白倉": {
+		"scope": "markdown",
+		"prefix": "shirakura",
+		"body": [
+			"総務部長（白倉）"
+		]
+	},
+	"尾崎": {
+		"scope": "markdown",
+		"prefix": "ozaki",
+		"body": [
+			"財政課長（尾崎）"
+		]
+	},
+	"赤坂（麻": {
+		"scope": "markdown",
+		"prefix": "akasakama",
+		"body": [
+			"高齢者支援課長補佐（赤坂）"
+		]
+	},
+	"齋藤": {
+		"scope": "markdown",
+		"prefix": "saitou",
+		"body": [
+			"産業振興課長（齋藤）"
+		]
+	},
+	"櫻井": {
+		"scope": "markdown",
+		"prefix": "sakurai",
+		"body": [
+			"新型コロナウイルスワクチン接種担当課長（櫻井）"
+		]
+	},
+	"藤川": {
+		"scope": "markdown",
+		"prefix": "fujikawa",
+		"body": [
+			"高齢者支援課長（藤川）"
+		]
+	},
+	"島田": {
+		"scope": "markdown",
+		"prefix": "shimada",
+		"body": [
+			"文化スポーツ課長（島田）"
+		]
+	},
+	"国冨": {
+		"scope": "markdown",
+		"prefix": "kunitomi",
+		"body": [
+			"教育指導担当部長（国冨）"
+		]
+	},
+	"飯島": {
+		"scope": "markdown",
+		"prefix": "iijima",
+		"body": [
+			"学務課長（飯島）"
+		]
+	},
+	"田中": {
+		"scope": "markdown",
+		"prefix": "tanaka",
+		"body": [
+			"環境部長（田中）"
+		]
+	},
+	"河野": {
+		"scope": "markdown",
+		"prefix": "kouno",
+		"body": [
+			"保険年金課長補佐（河野）"
+		]
+	},
+	"澁谷": {
+		"scope": "markdown",
+		"prefix": "shibuya",
+		"body": [
+			"保険年金課長（澁谷）"
+		]
+	},
+	"星野": {
+		"scope": "markdown",
+		"prefix": "hoshino",
+		"body": [
+			"高齢者支援課長補佐（星野）"
+		]
+	},
+	"小野": {
+		"scope": "markdown",
+		"prefix": "ono",
+		"body": [
+			"下水道課長補佐（小野）"
+		]
+	},
+	"萩原": {
+		"scope": "markdown",
+		"prefix": "hagiwara",
+		"body": [
+			"下水道課長（萩原）"
+		]
+	},
+	"柳瀨": {
+		"scope": "markdown",
+		"prefix": "yanase",
+		"body": [
+			"市民部長（柳瀨）"
+		]
+	},
+	"市長": {
+		"scope": "markdown",
+		"prefix": "sityo",
+		"body": [
+			"市長（小林洋子）"
+		]
+	},
+	"余語": {
+		"scope": "markdown",
+		"prefix": "yogo",
+		"body": [
+			"地域振興部長（余語）"
+		]
+	},
+	"有川": {
+		"scope": "markdown",
+		"prefix": "arikawa",
+		"body": [
+			"企画政策部長（有川）"
+		]
+	},
+	"松尾": {
+		"scope": "markdown",
+		"prefix": "matuo",
+		"body": [
+			"市民協働・男女参画推進課長（松尾）"
+		]
+	},
+	"照井": {
+		"scope": "markdown",
+		"prefix": "terui",
+		"body": [
+			"公共交通課長（照井）"
+		]
+	},
+	"村田": {
+		"scope": "markdown",
+		"prefix": "murata",
+		"body": [
+			"都市開発部長（村田）"
+		]
+	},
+	"佐藤": {
+		"scope": "markdown",
+		"prefix": "satou",
+		"body": [
+			"水と緑と公園課長（佐藤）"
+		]
+	},
+	"山本": {
+		"scope": "markdown",
+		"prefix": "yamamoto",
+		"body": [
+			"市民課長（山本）"
+		]
+	},
+	"原": {
+		"scope": "markdown",
+		"prefix": "hara",
+		"body": [
+			"総務課長（原）"
+		]
+	},
+	"市川": {
+		"scope": "markdown",
+		"prefix": "ichikawa",
+		"body": [
+			"教育総務課長（市川）"
+		]
+	},
+	"横山": {
+		"scope": "markdown",
+		"prefix": "yokoyama",
+		"body": [
+			"公共施設マネジメント課長補佐（横山）"
+		]
+	},
+}
